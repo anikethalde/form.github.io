@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <th>PERSONAL DETAILS</th>
+
+    <table>
+        <form method="post">
+            <tr>
+                <td><label for="fname">First Name:-</label></td>
+                <td> <input type="text" name="fname" id="fname"></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="lname">Last name:-</label></td>
+                <td><input type="text" name="lname" id="lname"></td>
+            </tr><br><br>
+
+            <tr>
+                <td><label for="email">email:-</label></td>
+                <td><input type="email" name="email" id="email" </td>
+            </tr>
+
+
+            <tr>
+                <td><label for="pass">Password:-</label></td>
+                <td><input type="password" name="password" id="pass"></td>
+            </tr>
+
+            <tr>
+                <td>Gender:-</td>
+
+                <td><label for="male">male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">female</label>
+                    <input type="radio" name="gender" id="female">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="number">Contact No:-</label></td>
+                <td><input type="number" name="number" id="number" maxlength="10"></td>
+            </tr>
+
+            <th>Educational Qualification</th>
+
+            <tr>
+                <td><label for="degree">Degree</label></td>
+                <td><select name="degree">
+                        <option value="Bcs">computer science</option>
+                        <option value="Bca">computer application</option>
+                        <option value="Msc">master of science</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td>Hobbies:-</td>
+                <td><label for="cricket">cricket</label>
+                    <input type="checkbox" name="cricket" id="cricket">
+                    <label for="reading">reading</label>
+                    <input type="checkbox" name="reading" id="reading">
+                </td>
+            </tr>
+
+            <th>Address</th>
+            <tr>
+                <td><label for="address">Address:-</label></td>
+                <td><textarea name="message" rows="10" cols="20"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="file">Attached file:-</label></td>
+                <td><input type="file" name="img" id="file" multiple></td>
+            </tr>
+
+            <tr>
+
+                <td><label for="submit">
+                    </label></td>
+                <td><input type="submit" id="submit"></td>
+            </tr>
+            <tr>
+                <td><label for="reset"></label></td>
+                <td><input type="reset" id="reset"></td>
+
+            </tr>
+
+
+        </form>
+
+
+
+    </table>
+
+</body>
+
+</html>
